@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "my_sqlite_app",
-    "slug": "my_sqlite_app",
+    "name": "notes-app",
+    "slug": "notes-app",
+    "scheme": "notesapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ]
   }
 }
